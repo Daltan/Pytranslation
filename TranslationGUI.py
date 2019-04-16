@@ -11,19 +11,19 @@ with open('languages.json', 'r') as f:
 iconlocation = './media/icon.ico'
 def press(button):
     if button == '翻译':
-        app.setLabel('提示','正在翻译，请稍后')
+        app.setLabel('提示', '正在翻译，请稍后')
         goallan = d2[app.getOptionBox('选择目标语言：')]
         goaltext=translation_general.translateBD(app.getTextArea('origintext'),goallan)
         app.setLabel('提示','翻译成功！')
         
         app.clearTextArea('译文')
-        app.setTextArea('译文',goaltext)
+        app.setTextArea('译文', goaltext)
     elif button == '清空':
         app.clearAllTextAreas()
         app.setLabel('提示','已清空！')
 
     elif button == '复制':
-        app.topLevel.clipboard_clear() # 清空剪切板
+        app.topLevel.clipboard_clear()  # 清空剪切板
         app.topLevel.clipboard_append(app.getTextArea("译文"))
         app.setLabel('提示','复制成功！')
     return 1
