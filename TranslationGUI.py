@@ -54,4 +54,3 @@ with gui('百度中英文翻译') as app:
     app.addLabel('提示','当前状态：正常，请输入要翻译的内容')
     # app.hideTitleBar()
     app.go() 
->>>>>>> 设置剪贴板
