@@ -3,7 +3,7 @@ pytranslation 是一款基于appJar库的图形界面翻译软件。翻译内容
 
 
 
-![](.\help\media\mainpage.png)
+![pic1](.\help\media\mainpage.png)
 
 
 
@@ -20,7 +20,7 @@ Pytranslation is an software based on appJar, the core translation engine is fro
 
 
 
-![mainpage](.\help\media\mainpage.png)
+![pic1](.\help\media\mainpage.png)
 
  Pytranslation has many features.
 
