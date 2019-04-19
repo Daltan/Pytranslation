@@ -2,7 +2,7 @@
 
 ![pic1](https://github.com/Daltan/Pytranslation/raw/master/help/media/mainpage.png)
 
-pytranslation 是一款基于appJar库的图形界面翻译软件。翻译内容来源是百度API。
+Pytranslation 是一款基于appJar库的图形界面翻译软件。翻译内容来源是百度API。
 
 主要特性有：
 
